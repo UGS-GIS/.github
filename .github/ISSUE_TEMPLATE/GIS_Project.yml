@@ -1,21 +1,21 @@
-name: TEST Website Change Requests
+name: TEST Feature Request (e.g. New Functionality)
 description: test
-title: I Think [this cool thing] Would be a Great Addition to the Website
+title: I Think [this cool thing] Would be a Great Addition to the Application
 labels: ["enhancement", "feature request"]
 assignees:
-  - CyndiAndersen
+  - marshallrobinson
 body:
-  - type: input
-    id: webpageURL
+  - type: textarea
+    id: requestReason
     attributes:
-        label: On what web page are you requesting a change?
-        placeholder: Page Title and/or Page URL
+        label: Why do you feel this application needs what you're requesting?
+        placeholder: A clear and concise description of what you feel the problem is. Ex. I'm always frustrated when [...]
     validations:
         required: true
-- type: textarea
-    id: changedescription
+  - type: textarea
+    id: solution
     attributes:
-        label: Describe the change you would like to request.
+        label: Describe the solution you'd like and why it builds value
         placeholder: A clear and concise description of what you want to happen and what value it will bring. Ex. This will make my life better because [...]. Feel free to attach screenshots or anything you think would help show what you're describing.
     validations:
         required: true
