@@ -3,7 +3,7 @@ description: test
 title: I Think [this cool thing] Would be a Great Addition to the Website
 labels: ["enhancement", "feature request"]
 assignees:
-  - Mackenzie-Cope
+  - CyndiAndersen
 body:
   - type: input
     id: webpageURL
