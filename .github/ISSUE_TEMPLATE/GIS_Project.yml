@@ -13,14 +13,14 @@ body:
     validations:
         required: true
   - type: checkboxes
-    id: cat-preferences
-    attributes:
-      label: What kinds of cats do you like?
-      description: You may select more than one.
-      options:
-        - label: Orange cat (required. Everyone likes orange cats.)
-          required: true
-        - label: **Black cat**
+  id: operating-systems
+  attributes:
+    label: Which operating systems have you used?
+    description: You may select more than one.
+    options:
+      - label: macOS
+      - label: Windows
+      - label: Linux
   - type: textarea
     id: solution
     attributes:
