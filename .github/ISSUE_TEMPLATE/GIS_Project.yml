@@ -12,16 +12,6 @@ body:
         placeholder: Page Title and/or Page URL
     validations:
         required: true
- - type: checkboxes
-    id: changetype
-    attributes:
-      label: What kind of website change are you requesting?
-      description: You may select more than one.
-      options:
-        - label: Static Text Change/Edit
-        - label: Figure/Photo Change
-        - label: New Content Addition
-        - label: Content Ommission
 - type: textarea
     id: changedescription
     attributes:
