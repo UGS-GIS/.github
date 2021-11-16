@@ -1,0 +1,58 @@
+name: TEST Website Change Requests
+description: test
+title: I Think [this cool thing] Would be a Great Addition to the Website
+labels: ["enhancement", "feature request"]
+assignees:
+  - Mackenzie-Cope
+body:
+  - type: input
+    id: webpageURL
+    attributes:
+        label: On what web page are you requesting a change?
+        placeholder: Page Title and/or Page URL
+    validations:
+        required: true
+ - type: checkboxes
+    id: changetype
+    attributes:
+      label: What kind of website change are you requesting?
+      description: You may select more than one.
+      options:
+        - label: Static Text Change/Edit
+        - label: Figure/Photo Change
+        - label: New Content Addition
+        - label: Content Ommission
+- type: textarea
+    id: changedescription
+    attributes:
+        label: Describe the change you would like to request.
+        placeholder: A clear and concise description of what you want to happen and what value it will bring. Ex. This will make my life better because [...]. Feel free to attach screenshots or anything you think would help show what you're describing.
+    validations:
+        required: true
+  - type: textarea
+    id: audienceImpact
+    attributes:
+        label: What impact will this new functionality have on this application's audience?
+        placeholder: A clear and concise description of how this will positively impact a broad audience of users.
+    validations:
+        required: true
+  - type: dropdown
+    id: urgency
+    attributes:
+        label: How Urgent is this?
+        options:
+          - Low
+          - Medium
+          - High
+    validations:
+        required: true
+  - type: textarea
+    id: moreEvidence
+    attributes:
+        label: Please provide additional evidence from other users to support medium and high ranking
+        placeholder: Attach emails, user-feedback, etc. showing evidence that this new feature would have a positive impact.
+    validations:
+        required: false
+  - type: markdown
+    attributes:
+        value: "### **All feature requests will be reviewed for future application releases**"
