@@ -1,6 +1,6 @@
 name: GIS Request (e.g. GIS Support)
 description: Request for assistance with GIS activities
-title: I Think [this cool thing] Would be a Great Addition to the Application
+title: I Think [this cool thing] Would be a Great GIS Project
 labels: ["software upgrade", "mapping help", "data edits", "data collection"]
 assignees:
   - CyndiAndersen
