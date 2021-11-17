@@ -1,7 +1,7 @@
-name: GIS Project Request (e.g. New GIS Support)
-description: request to assist with GIS activities
+name: GIS Request (e.g. GIS Support)
+description: Request for assistance with GIS activities
 title: I Think [this cool thing] Would be a Great Addition to the Application
-labels: ["enhancement", "feature request"]
+labels: ["software upgrade", "mapping help", "data edits", "data collection"]
 assignees:
   - CyndiAndersen
 body:
