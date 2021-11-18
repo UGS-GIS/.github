@@ -1,14 +1,14 @@
 name: GIS Request (e.g. GIS Support)
 description: Request for assistance with GIS activities
-title: I Think [this cool thing] Would be a Great GIS Project
-labels: ["software upgrade", "mapping help", "data edits", "data collection"]
+title: I Think [this cool thing] would be a Great GIS Project
+labels: ["software upgrade", "new map", "edit map", "edits", "data collection"]
 assignees:
   - CyndiAndersen
 body:
   - type: textarea
     id: requestReason
     attributes:
-        label: Why do you feel this application needs what you're requesting?
+        label: Why do you the GIS support you're requesting?
         placeholder: A clear and concise description of what you feel the problem is. Ex. I'm always frustrated when [...]
     validations:
         required: true
@@ -22,11 +22,21 @@ body:
   - type: textarea
     id: audienceImpact
     attributes:
-        label: What impact will this new functionality have on this application's audience?
+        label: What impact will this GIS activity have on your program, UGS, DNR, or the public?
         placeholder: A clear and concise description of how this will positively impact a broad audience of users.
     validations:
         required: true
   - type: dropdown
+    id: newORexisting
+    attributes:
+        label: Is this a new or existing GIS activity?
+        options:
+          - New
+          - Existing
+          - Existing and New
+    validations:
+        required: true
+- type: dropdown
     id: urgency
     attributes:
         label: How Urgent is this?
