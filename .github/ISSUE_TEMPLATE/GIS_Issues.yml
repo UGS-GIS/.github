@@ -1,0 +1,51 @@
+name: Website Change Request
+description: This form is to be used to request changes to the UGS website.
+title: Page Title, Requested change(s) (i.e. change content, change photos, add new section, etc.)
+labels: ["enhancement"]
+assignees:
+  - Mackenzie-Cope
+body:
+  - type: markdown
+    attributes:
+        value: "### **If you have multiple changes for a web page, please list them all here and not in separate issues. This will help us organize and prioritize change requests per web page.**"
+  - type: input
+    id: webpageURL
+    attributes:
+        label: On what web page are you requesting a change?
+        placeholder: Page Title and/or Page URL
+    validations:
+        required: true
+  - type: textarea
+    id: changedescription
+    attributes:
+        label: Describe the change(s) you would like to request.
+        placeholder: A clear and concise description of what you want to happen and what value it will bring. Ex. Change intro text to this "...." because this is more up-to-date. Feel free to attach screenshots or anything you think would help show what you're describing.
+    validations:
+        required: true
+  - type: dropdown
+    id: urgency
+    attributes:
+        label: How Urgent is this?
+        options:
+          - Low
+          - Medium
+          - High
+    validations:
+        required: true
+  - type: textarea
+    id: moreEvidence
+    attributes:
+        label: If high urgency, please explain.
+        placeholder: 
+    validations:
+        required: false
+  - type: textarea
+    id: additionalinfo
+    attributes:
+        label: Additional notes
+        placeholder: 
+    validations:
+        required: false
+  - type: markdown
+    attributes:
+        value: "### **All website change requests will follow the proper review process.**"
