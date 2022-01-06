@@ -51,4 +51,4 @@ body:
         required: false
   - type: markdown
     attributes:
-        value: "### **All website change requests will follow the proper review process.**"
+        value: "### **You will be contacted to .**"
