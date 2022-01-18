@@ -1,5 +1,5 @@
 name: GIS Support Request
-description: Request for assistance with GIS activities.
+description: Request for assistance with GIS support activities.
 title: Page Title, Requested GIS support (i.e. software upgrade, data collection, AGOL login)
 labels: ["GIS Support"]
 assignees:
