@@ -51,4 +51,4 @@ body:
         required: false
   - type: markdown
     attributes:
-        value: "### **You will be contacted to .**"
+        value: "### **You will be contacted to discuss specifics and begin this support.**"
