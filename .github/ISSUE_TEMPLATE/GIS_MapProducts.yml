@@ -65,7 +65,7 @@ body:
   - type: input
     id: projectCode
     attributes:
-        label: Please list Project Code to charge time to. 
+        label: Please list Project Code to charge time. 
         placeholder: Enter project code, or N/A if none
     validations:
         required: true
