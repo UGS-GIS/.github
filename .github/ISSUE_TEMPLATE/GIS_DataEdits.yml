@@ -8,10 +8,10 @@ body:
   - type: dropdown
     id: RequestType
     attributes:
-        label: What type of GIS editing tasks are you requesting?
+        label: Specificy GIS editing tasks you are requesting:
         options:
           - Edit existing GIS data
-          - Edit existing GIS data and publish to web service
+          - Edit existing GIS data to update a service
           - New GIS data
           - New GIS data for an existing map
           - New GIS data for a new map
@@ -30,7 +30,7 @@ body:
   - type: dropdown
     id: urgency
     attributes:
-        label: How Urgent is this?
+        label: How Urgent are these edits?
         options:
           - Low
           - Medium
