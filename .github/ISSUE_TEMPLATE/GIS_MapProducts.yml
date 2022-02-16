@@ -1,7 +1,7 @@
-name: GIS Data Edits Request
-description: Request for GIS activities.
+name: GIS Mapping Request
+description: Request for GIS map products.
 title: Page Title, Requested GIS support (i.e. new and/or existing GIS data edits)
-labels: ["GIS Tasks"]
+labels: ["GIS Maps"]
 assignees:
   - CyndiAndersen
 body:
@@ -13,7 +13,8 @@ body:
           - New map in ArcGIS Pro
           - New map in ArcMap
           - New web map
-          - New web service
+          - New map layer(s)
+          - New web service(s)
           - Print map
           - PDF map
     validations:
@@ -25,7 +26,7 @@ body:
     id: GISEditsDescription
     attributes:
         label: Describe the GIS Edits you requested.
-        placeholder: A clear and concise description of the product you want and what value it will bring. Ex. "New map of.... OR  Edits to " Include list of data, marked up maps, screenshots, or anything you think will support your request.
+        placeholder: A clear and concise description of the product you want and the purpose.  Also include what value it will bring. Ex. "New map of.... OR  Edits to " Include list of data, marked up maps, screenshots, or anything you think will support your request.
     validations:
         required: true
   - type: dropdown
