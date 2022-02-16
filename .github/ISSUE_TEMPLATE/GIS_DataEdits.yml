@@ -60,4 +60,5 @@ body:
         required: true
   - type: markdown
     attributes:
-        value: "### **You will be contacted to discuss specifics and begin this support.**"
+        value: "
+        ### **You will be contacted to discuss GIS data editing specifics.**"
