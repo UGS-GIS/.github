@@ -27,6 +27,13 @@ body:
         placeholder: A clear and concise description of the GIS edits you need and what value it will bring. Ex. "Edits to this feature class will..." Include list of data, marked up maps, screenshots, or anything you think will support your request.
     validations:
         required: true
+  - type: input
+    id: dueDate
+    attributes:
+        label: Edits needed by... 
+        placeholder: Enter the due date here.
+    validations:
+        required: true
   - type: dropdown
     id: urgency
     attributes:
