@@ -11,7 +11,7 @@ body:
         label: What type of GIS editing tasks are you requesting?
         options:
           - Edit existing GIS data
-          - Edit existing data and publish to web service
+          - Edit existing GIS data and publish to web service
           - New GIS data
           - New GIS data for an existing map
           - New GIS data for a new map
