@@ -1,5 +1,5 @@
 name: GIS Data Edits Request
-description: Request for GIS activities.
+description: Request for GIS data editing activities.
 title: Page Title, Requested GIS support (i.e. new and/or existing GIS data edits)
 labels: ["GIS Tasks"]
 assignees:
@@ -10,16 +10,11 @@ body:
     attributes:
         label: What type of GIS editing tasks are you requesting?
         options:
-          - Edit Data
-          - Edit Map
-          - Edit Web Map
-          - Edit Web Service
-          - New Data
-          - New Map
-          - New Web Map
-          - New Web Service
-          - Print Map
-          - PDF Map
+          - Edit existing GIS data
+          - Edit existing data and publish to web service
+          - New GIS data
+          - New GIS data for an existing map
+          - New GIS data for a new map
     validations:
         required: true
   - type: markdown
@@ -56,6 +51,13 @@ body:
         placeholder: 
     validations:
         required: false
+  - type: input
+    id: projectCode
+    attributes:
+        label: If available, please list Project Code to charge time to. 
+        placeholder: Enter project code, or N/A if none
+    validations:
+        required: true
   - type: markdown
     attributes:
         value: "### **You will be contacted to discuss specifics and begin this support.**"
