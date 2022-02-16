@@ -8,8 +8,10 @@ body:
   - type: dropdown
     id: RequestType
     attributes:
-        label: What type of GIS map product are you requesting?
+        label: What GIS map product are you requesting?
         options:
+          - Edit existing map in ArcGIS Pro
+          - Edit existing map in ArcMap
           - New map in ArcGIS Pro
           - New map in ArcMap
           - New web map
@@ -23,10 +25,17 @@ body:
     attributes:
         value: "### **Please provide information about your request below. This will help with request prioritization.**"
   - type: textarea
-    id: GISEditsDescription
+    id: GISMapDescription
     attributes:
-        label: Describe the GIS Edits you requested.
+        label: Describe the map product you requested.
         placeholder: A clear and concise description of the product you want and the purpose.  Also include what value it will bring. Ex. "New map of.... OR  Edits to " Include list of data, marked up maps, screenshots, or anything you think will support your request.
+    validations:
+        required: true
+  - type: input
+    id: dueDate
+    attributes:
+        label: Map products are needed by... 
+        placeholder: Enter the due date here.
     validations:
         required: true
   - type: dropdown
@@ -53,6 +62,13 @@ body:
         placeholder: 
     validations:
         required: false
+  - type: input
+    id: projectCode
+    attributes:
+        label: Please list Project Code to charge time to. 
+        placeholder: Enter project code, or N/A if none
+    validations:
+        required: true
   - type: markdown
     attributes:
-        value: "### **You will be contacted to discuss specifics and begin this support.**"
+        value: "### **Thank you for submitting your request!  You will be contacted to discuss mapping specifics.**"
