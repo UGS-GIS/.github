@@ -61,4 +61,5 @@ body:
   - type: markdown
     attributes:
         value: "
-        ### **You will be contacted to discuss GIS data editing specifics.**"
+        ### **Thank you for submitting your request!
+        You will be contacted to discuss GIS data editing specifics.**"
