@@ -24,7 +24,7 @@ body:
     id: GISEditsDescription
     attributes:
         label: Describe the GIS Edits you requested.
-        placeholder: A clear and concise description of the product you want and what value it will bring. Ex. "New map of.... OR  Edits to " Include list of data, marked up maps, screenshots, or anything you think will support your request.
+        placeholder: A clear and concise description of the GIS edits you need and what value it will bring. Ex. "Edits to this feature class..." Include list of data, marked up maps, screenshots, or anything you think will support your request.
     validations:
         required: true
   - type: dropdown
