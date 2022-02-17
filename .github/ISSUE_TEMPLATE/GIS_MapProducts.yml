@@ -71,4 +71,4 @@ body:
         required: true
   - type: markdown
     attributes:
-        value: "### **Thank you for submitting your request!  You will be contacted to discuss mapping specifics.**"
+        value: "### **Thank you for submitting your request!  You will be contacted to discuss mapping specifics soon.**"
