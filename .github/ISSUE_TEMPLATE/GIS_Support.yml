@@ -32,7 +32,7 @@ body:
   - type: input
     id: dueDate
     attributes:
-        label: GIS support is needed by... 
+        label: When is this GIS support needed by... 
         placeholder: Enter the due date here.
     validations:
         required: true
