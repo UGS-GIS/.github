@@ -34,7 +34,7 @@ body:
   - type: input
     id: dueDate
     attributes:
-        label: Map products are needed by... 
+        label: When is this map product needed by... 
         placeholder: Enter the due date here.
     validations:
         required: true
