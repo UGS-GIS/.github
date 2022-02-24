@@ -59,6 +59,20 @@ body:
     validations:
         required: false
   - type: input
+    id: dataSource
+    attributes:
+        label: Where is this GIS data currently stored... 
+        placeholder: For existing data, enter path/filename.  For new data, enter N/A.
+    validations:
+        required: true
+  - type: input
+    id: NewDataLocation
+    attributes:
+        label: Where to save new GIS data... 
+        placeholder: Enter path/filename to save new data.
+    validations:
+        required: true
+- type: input
     id: projectCode
     attributes:
         label: Please list a Project Code to charge time. 
