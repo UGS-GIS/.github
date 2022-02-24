@@ -59,16 +59,16 @@ body:
     validations:
         required: false
   - type: input
-    id: dataSource
+    id: originalDataLocation
     attributes:
-        label: Where is this GIS data currently stored... 
+        label: Existing GIS data is currently stored here... 
         placeholder: For existing data, enter path/filename.  For new data, enter N/A.
     validations:
         required: true
   - type: input
-    id: NewDataLocation
+    id: newDataLocation
     attributes:
-        label: Where to save new GIS data... 
+        label: Save new GIS data here... 
         placeholder: Enter path/filename to save new data.
     validations:
         required: true
