@@ -1,4 +1,4 @@
-name: GIS Data Edit Request
+name: GIS Data Edits Request
 description: Request for GIS data editing activities.
 title: Page Title, Requested GIS support (i.e. new and/or existing GIS data edits)
 labels: ["GIS Tasks"]
