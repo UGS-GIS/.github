@@ -1,6 +1,6 @@
 name: GIS Mapping Request
 description: Request for GIS map products.
-title: Page Title, Requested GIS support (i.e. new and/or existing GIS data edits)
+title: Page Title, Requested GIS Map support (i.e. new and/or existing GIS maps)
 labels: ["GIS Maps"]
 assignees:
   - CyndiAndersen
@@ -63,6 +63,20 @@ body:
     validations:
         required: false
   - type: input
+    id: originalMapLocation
+    attributes:
+        label: Where is existing GIS map currently stored? 
+        placeholder: For existing data, enter path/filename.  For new data, enter N/A.
+    validations:
+        required: true
+  - type: input
+    id: newMapLocation
+    attributes:
+        label: Where to save new GIS map? 
+        placeholder: Enter path/filename to save new data.
+    validations:
+        required: true
+- type: input
     id: projectCode
     attributes:
         label: Please list Project Code to charge time. 
