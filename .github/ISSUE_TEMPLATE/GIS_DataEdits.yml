@@ -37,7 +37,7 @@ body:
   - type: dropdown
     id: urgency
     attributes:
-        label: How urgent are these edits?
+        label: How urgent is this?
         options:
           - Low
           - Medium
@@ -59,10 +59,10 @@ body:
     validations:
         required: false
   - type: input
-    id: originalDataLocation
+    id: origDataLocation
     attributes:
         label: Where is existing GIS data located? 
-        placeholder: For existing data, enter path/filename.  For new data, enter N/A.
+        placeholder: Enter path/filename of existing data OR N/A for new data.
     validations:
         required: true
   - type: input
