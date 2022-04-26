@@ -8,7 +8,7 @@ body:
   - type: dropdown
     id: RequestType
     attributes:
-        label: Specify GIS edits that are needed.
+        label: What GIS edits are needed?
         options:
           - Edit existing GIS data
           - Edit existing GIS data to update a service
