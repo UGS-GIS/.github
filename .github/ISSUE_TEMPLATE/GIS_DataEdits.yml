@@ -61,7 +61,7 @@ body:
   - type: input
     id: originalDataLocation
     attributes:
-        label: Where is existing GIS data is currently stored? 
+        label: Where is existing GIS data located? 
         placeholder: For existing data, enter path/filename.  For new data, enter N/A.
     validations:
         required: true
