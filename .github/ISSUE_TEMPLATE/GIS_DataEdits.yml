@@ -1,4 +1,4 @@
-name: GIS Data Edits
+name: "GIS Data Edits"
 description: Request to edit new oe existing GIS data
 title: Page Title, Requested GIS Edits (i.e. new and/or existing GIS data edits)
 labels: ["GIS Data Edits"]
