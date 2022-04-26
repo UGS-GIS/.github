@@ -1,7 +1,7 @@
 name: GIS Edit Request
 description: Request for GIS data edits.
 title: Page Title, Requested GIS Edits (i.e. new or existing GIS data edits)
-labels: ["GIS Edit Tasks"]
+labels: ["GIS Edits"]
 assignees:
   - CyndiAndersen
 body:
