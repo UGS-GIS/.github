@@ -1,6 +1,6 @@
 name: GIS Mapping Request
 description: Request for GIS map products.
-title: Page Title, Requested GIS Map support (i.e. new or existing GIS maps)
+title: Page Title, Requested GIS Map help (i.e. new or existing GIS maps)
 labels: ["GIS Maps"]
 assignees:
   - CyndiAndersen
