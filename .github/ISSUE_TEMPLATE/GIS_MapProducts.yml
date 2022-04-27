@@ -6,7 +6,7 @@ assignees:
   - CyndiAndersen
 body:
   - type: dropdown
-    id: RequestType
+    id: MapRequestType
     attributes:
         label: What GIS map product are you requesting?
         options:
@@ -80,7 +80,7 @@ body:
     id: projectCode
     attributes:
         label: Please list Project Code to charge time. 
-        placeholder: Enter project code, or N/A if none
+        placeholder: Enter project code, if applicable
     validations:
         required: true
   - type: markdown
