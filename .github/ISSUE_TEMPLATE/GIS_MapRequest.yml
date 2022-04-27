@@ -27,7 +27,7 @@ body:
   - type: textarea
     id: GISMapDescription
     attributes:
-        label: Describe the map product you requested.
+        label: Describe your requested map product.
         placeholder: A clear and concise description of the GIS map product you want and the purpose.  Also include what value it will bring. Ex. "New map of.... OR  Edits to " Include list of data, marked up maps, screenshots, or anything you think will support your request.
     validations:
         required: true
