@@ -1,0 +1,88 @@
+name: GIS Mapping Request
+description: Request for GIS map products.
+title: Page Title, Requested GIS Map support (i.e. new or existing GIS maps)
+labels: ["GIS Maps"]
+assignees:
+  - CyndiAndersen
+body:
+  - type: dropdown
+    id: MapRequestType
+    attributes:
+        label: What GIS map product are you requesting?
+        options:
+          - Edit existing map in ArcGIS Pro
+          - Edit existing map in ArcMap
+          - New map in ArcGIS Pro
+          - New map in ArcMap
+          - New web map
+          - New map layer(s)
+          - New web service(s)
+          - Print map
+          - PDF map
+    validations:
+        required: true
+          - type: markdown
+    attributes:
+        value: "### **Please provide information about your request below. This will help with request prioritization.**"
+  - type: textarea
+    id: GISMapDescription
+    attributes:
+        label: Describe the map product you requested.
+        placeholder: A clear and concise description of the GIS map product you want and the purpose.  Also include what value it will bring. Ex. "New map of.... OR  Edits to " Include list of data, marked up maps, screenshots, or anything you think will support your request.
+    validations:
+        required: true
+  - type: input
+    id: dueDate
+    attributes:
+        label: When is this map product needed by... 
+        placeholder: Enter the due date here.
+    validations:
+        required: true
+  - type: dropdown
+    id: urgency
+    attributes:
+        label: How Urgent is this?
+        options:
+          - Low
+          - Medium
+          - High
+    validations:
+        required: true
+  - type: textarea
+    id: moreEvidence
+    attributes:
+        label: If high urgency, please explain.
+        placeholder: 
+    validations:
+        required: false
+  - type: textarea
+    id: additionalinfo
+    attributes:
+        label: Additional notes
+        placeholder: 
+    validations:
+        required: false
+  - type: input
+    id: originalMapLocation
+    attributes:
+        label: Where is existing GIS map currently stored? 
+        placeholder: For existing data, enter path and filename.  
+    validations:
+        required: true
+  - type: input
+    id: newMapLocation
+    attributes:
+        label: Where to save new GIS map? 
+        placeholder: Enter path and filename to save new data.
+    validations:
+        required: true
+  - type: input
+    id: projectCode
+    attributes:
+        label: Please list Project Code to charge time. 
+        placeholder: Enter project code, if applicable
+    validations:
+        required: true
+  - type: markdown
+    attributes:
+        value: "### **Thank you for submitting your request!  You will be contacted to discuss mapping specifics soon.**"
