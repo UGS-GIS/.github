@@ -1,5 +1,5 @@
 name: GIS Edit Request
-description: Request for GIS data edits.
+description: Request GIS data edits.
 title: Page Title, Requested GIS Edits (i.e. new or existing GIS data edits)
 labels: ["GIS Edits"]
 assignees:
@@ -62,14 +62,14 @@ body:
     id: origDataLocation
     attributes:
         label: Where is existing GIS data located? 
-        placeholder: Enter path/filename of existing data OR N/A for new data.
+        placeholder: Enter path and filename of existing data OR N/A for new data.
     validations:
         required: true
   - type: input
     id: newDataLocation
     attributes:
         label: Where to save new GIS data? 
-        placeholder: Enter path/filename to save new data.
+        placeholder: Enter path and filename to save new data.
     validations:
         required: true
 - type: input
