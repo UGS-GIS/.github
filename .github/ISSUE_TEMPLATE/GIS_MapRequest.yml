@@ -65,7 +65,7 @@ body:
   - type: input
     id: originalMapLocation
     attributes:
-        label: Where is existing GIS map currently stored? 
+        label: Where is existing GIS map and supporting info currently stored? 
         placeholder: For existing data, enter path and filename.  
     validations:
         required: true
