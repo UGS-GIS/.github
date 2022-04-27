@@ -21,7 +21,7 @@ body:
           - PDF map
     validations:
         required: true
-          - type: markdown
+  - type: markdown
     attributes:
         value: "### **Please provide information about your request below. This will help with request prioritization.**"
   - type: textarea
