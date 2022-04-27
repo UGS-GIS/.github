@@ -62,6 +62,20 @@ body:
         placeholder: 
     validations:
         required: false
+  - type: input
+    id: originalMapLocation
+    attributes:
+        label: Where is existing GIS map currently stored? 
+        placeholder: For existing data, enter path and filename.  
+    validations:
+        required: true
+  - type: input
+    id: newMapLocation
+    attributes:
+        label: Where to save new GIS map? 
+        placeholder: Enter path and filename to save new data.
+    validations:
+        required: true
 - type: input
     id: projectCode
     attributes:
