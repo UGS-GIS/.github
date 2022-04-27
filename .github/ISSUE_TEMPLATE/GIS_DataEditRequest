@@ -1,0 +1,84 @@
+name: GIS Edit Request
+description: Request GIS data edits.
+title: Page Title, Requested GIS Edits (i.e. new or existing GIS data edits)
+labels: ["GIS Edits"]
+assignees:
+  - CyndiAndersen
+body:
+  - type: dropdown
+    id: RequestType
+    attributes:
+        label: What GIS edits are needed?
+        options:
+          - Edit existing GIS data
+          - Edit existing GIS data to update a service
+          - New GIS data
+          - New GIS data for an existing map
+          - New GIS data for a new map
+    validations:
+        required: true
+  - type: markdown
+    attributes:
+        value: "### **Please provide information about your request below. This will help with request prioritization.**"
+  - type: textarea
+    id: GISEditsDescription
+    attributes:
+        label: Describe the GIS edits you requested.
+        placeholder: A clear and concise description of the GIS edits you need and what value it will bring. Ex. "Edits to this feature class will..." Include list of data, marked up maps, screenshots, or anything you think will support your request.
+    validations:
+        required: true
+  - type: input
+    id: dueDate
+    attributes:
+        label: When are these GIS edits needed by... 
+        placeholder: Enter the due date here.
+    validations:
+        required: true
+  - type: dropdown
+    id: urgency
+    attributes:
+        label: How urgent is this?
+        options:
+          - Low
+          - Medium
+          - High
+    validations:
+        required: true
+  - type: textarea
+    id: moreEvidence
+    attributes:
+        label: If high urgency, please explain.
+        placeholder: 
+    validations:
+        required: false
+  - type: textarea
+    id: additionalinfo
+    attributes:
+        label: Additional notes
+        placeholder: 
+    validations:
+        required: false
+  - type: input
+    id: origDataLocation
+    attributes:
+        label: Where is existing GIS data located? 
+        placeholder: Enter path and filename of existing data OR N/A for new data.
+    validations:
+        required: true
+  - type: input
+    id: newDataLocation
+    attributes:
+        label: Where to save new GIS data? 
+        placeholder: Enter path and filename to save new data.
+    validations:
+        required: true
+  - type: input
+    id: projectCode
+    attributes:
+        label: Please list a Project Code to charge time. 
+        placeholder: Enter project code, or N/A if none
+    validations:
+        required: true
+  - type: markdown
+    attributes:
+        value: "### **Thank you for submitting your request!   You will be contacted soon to discuss GIS data editing specifics.**"
