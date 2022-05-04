@@ -10,7 +10,7 @@ body:
     attributes:
         label: What GIS map product are you requesting?
         options:
-          - StateMap Project
+          - GeMs conversion
           - Edit existing map in ArcGIS Pro
           - Edit existing map in ArcMap
           - New map in ArcGIS Pro
