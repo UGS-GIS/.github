@@ -22,13 +22,14 @@ body:
     validations:
         required: true
 - type: checkboxes
-  id: GISpreferences
+  id: GIS-preferences
   attributes:
     label: Do you prefer GIS work in ArcMap or ArcGIS Pro?
     description: You may select more than one.
     options:
       - label: ArcMap
         required: true
+      - label: ArcGIS Pro  
 - type: markdown
     attributes:
         value: "### **Please provide information about your request below. This will help with request prioritization.**"
