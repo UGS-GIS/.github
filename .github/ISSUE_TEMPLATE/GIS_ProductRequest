@@ -11,13 +11,13 @@ body:
         label: What GIS map product are you requesting?
         options:
           - GeMs conversion
-          - Edit existing map in ArcGIS Pro
-          - Edit existing map in ArcMap
-          - New map in ArcGIS Pro
-          - New map in ArcMap
-          - New web map
-          - New map layer(s)
+          - Edit existing GIS data
+          - Edit existing map
+          - New feature class
+          - New map
           - New web service(s)
+          - New web map
+          - New web application
           - Print map
           - PDF map
     validations:
