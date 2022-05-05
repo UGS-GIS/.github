@@ -29,7 +29,7 @@ body:
     id: SignificantInfo
     attributes:
         label: Check all that apply   
-        options: Be sure to identify whether to use ArcMap or ArcGIS Pro
+        options: Be sure to identify if using ArcMap or ArcGIS Pro
           - label: StateMap Project
             required: true
           - label: ArcMap
