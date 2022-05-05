@@ -31,7 +31,7 @@ body:
         label: Check all that apply   
         options: Be sure to identify whether to use ArcMap or ArcGIS Pro
           - label: This is a StateMap Project
-            required: false
+            required: true
           - label: ArcMap
           - label: ArcGIS Pro
  - type: textarea
