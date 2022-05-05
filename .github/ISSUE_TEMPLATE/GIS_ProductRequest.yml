@@ -57,7 +57,7 @@ body:
           - High
     validations:
         required: true
-  - type: textarea
+  - type: input
     id: moreEvidence
     attributes:
         label: If high urgency, please explain.
