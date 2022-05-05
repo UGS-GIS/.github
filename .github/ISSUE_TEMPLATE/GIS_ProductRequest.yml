@@ -68,14 +68,14 @@ body:
   - type: input
     id: originalMapLocation
     attributes:
-        label: Where is existing GIS map and supporting info currently stored? 
+        label: Where is existing GIS, map and/or supporting info currently stored? 
         placeholder: For existing data, enter path and filename.  
     validations:
         required: true
   - type: input
     id: newMapLocation
     attributes:
-        label: Where to save new GIS map? 
+        label: Where to save new GIS product? 
         placeholder: Enter path and filename to save new data.
     validations:
         required: true
