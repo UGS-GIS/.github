@@ -33,7 +33,8 @@ body:
           - label: This is a StateMap Project
           - label: ArcMap
           - label: ArcGIS Pro
-  - type: textarea
+            required: false
+ - type: textarea
     id: GISMapDescription
     attributes:
         label: Describe your requested map product.
