@@ -25,7 +25,16 @@ body:
   - type: markdown
     attributes:
         value: "### **Please provide information about your request below. This will help with request prioritization.**"
-  - type: textarea
+- type: checkboxes
+  id: SignificantInfo
+  attributes:
+    label: Significant Information
+    description: Check all that apply.
+    options:
+      - label: StateMap Project
+        required: false
+      - label: **Black cat**
+- type: textarea
     id: GISMapDescription
     attributes:
         label: Describe your requested map product.
