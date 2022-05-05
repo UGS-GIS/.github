@@ -31,10 +31,9 @@ body:
         label: Check all that apply   
         description: Be sure to identify if using ArcMap or ArcGIS Pro
         options:
-        - label: StateMap Project
-          required: true
         - label: ArcMap
         - label: ArcGIS Pro
+        - label: This is a StateMap Project
   - type: textarea
     id: GISMapDescription
     attributes:
