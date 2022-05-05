@@ -35,7 +35,7 @@ body:
           required: true
         - label: ArcMap
         - label: ArcGIS Pro
- - type: textarea
+  - type: textarea
     id: GISMapDescription
     attributes:
         label: Describe your requested map product.
