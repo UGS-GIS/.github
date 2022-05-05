@@ -33,7 +33,7 @@ body:
         options:
           - label: StateMap Project
             required: false
-          - label: **Black cat**
+          - label: Other
   - type: textarea
     id: GISMapDescription
     attributes:
