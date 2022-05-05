@@ -19,7 +19,7 @@ body:
           - New web map
           - New web application
           - Print map
-          - PDF map
+          - Create PDF map
     validations:
         required: true
   - type: markdown
