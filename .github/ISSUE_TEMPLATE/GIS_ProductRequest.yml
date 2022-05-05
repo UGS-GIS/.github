@@ -30,10 +30,10 @@ body:
     attributes:
         label: Significant Information
         description: Check all that apply.
-    options:
-      - label: StateMap Project
-        required: false
-      - label: **Black cat**
+        options:
+          - label: StateMap Project
+            required: false
+          - label: **Black cat**
   - type: textarea
     id: GISMapDescription
     attributes:
