@@ -44,7 +44,7 @@ body:
   - type: input
     id: dueDate
     attributes:
-        label: When is this map product needed by? 
+        label: When is this GIS product needed? 
         placeholder: Enter the due date here.
     validations:
         required: true
@@ -62,13 +62,6 @@ body:
     id: moreEvidence
     attributes:
         label: If high urgency, please explain.
-        placeholder: 
-    validations:
-        required: false
-  - type: textarea
-    id: additionalinfo
-    attributes:
-        label: Additional notes
         placeholder: 
     validations:
         required: false
