@@ -30,7 +30,7 @@ body:
     attributes:
         label: Check all that apply   
         options: Be sure to identify whether to use ArcMap or ArcGIS Pro
-          - label: This is a StateMap Project
+          - label: StateMap Project
             required: true
           - label: ArcMap
           - label: ArcGIS Pro
