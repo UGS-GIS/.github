@@ -8,7 +8,7 @@ body:
   - type: dropdown
     id: MapRequestType
     attributes:
-        label: What GIS map product are you requesting?
+        label: What GIS product are you requesting?
         options:
           - GeMs conversion
           - Edit existing GIS data
@@ -30,7 +30,7 @@ body:
     attributes:
         label: Check all that apply   
         options:
-          - label: StateMap Project
+          - label: This is a StateMap Project
             required: false
           - label: Other
   - type: textarea
@@ -91,7 +91,7 @@ body:
         label: Please list Project Code to charge time. 
         placeholder: Enter project code, if applicable
     validations:
-        required: true
+        required: false
   - type: markdown
     attributes:
         value: "### **Thank you for submitting your request!  You will be contacted to discuss mapping specifics soon.**"
