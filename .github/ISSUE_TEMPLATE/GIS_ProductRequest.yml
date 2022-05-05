@@ -28,8 +28,7 @@ body:
   - type: checkboxes
     id: SignificantInfo
     attributes:
-        label:    
-        description: Check all that apply.
+        label: Check all that apply   
         options:
           - label: StateMap Project
             required: false
