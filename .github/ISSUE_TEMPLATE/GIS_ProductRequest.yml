@@ -3,7 +3,7 @@ description: Request for new or existing GIS maps and edits.
 title: Page Title, Requested GIS maps and data edits (i.e. new or existing GIS maps)
 labels: ["GIS maps and edits"]
 assignees:
-  - CyndiAndersen
+  - CyndiAndersen, gedouglass
 body:
   - type: dropdown
     id: MapRequestType
