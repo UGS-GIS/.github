@@ -11,6 +11,7 @@ body:
         label: What GIS product are you requesting?
         options:
           - GeMs conversion
+          - General GIS work
           - Edit existing GIS data
           - Edit existing map
           - New feature class
