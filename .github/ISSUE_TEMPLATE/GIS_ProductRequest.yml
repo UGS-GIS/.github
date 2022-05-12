@@ -12,13 +12,10 @@ body:
         options:
           - GeMs conversion
           - General GIS work
-          - Edit existing GIS data
+          - Edit new/existing GIS data
           - Edit existing map
           - New feature class
           - New map
-          - New web service(s)
-          - New web map
-          - New web application
           - Print map
           - Create PDF map
     validations:
